@@ -18,3 +18,16 @@
 a {
   text-decoration: none;
 }
+
+.autohide {
+  opacity: 0;
+}
+
+.scrolled-down{
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.scrolled-up{
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
