@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import "./index.css";
 import App from "./App.tsx";
 import { NavBar } from "./components/NavBar/NavBar.tsx";
@@ -9,7 +9,7 @@ import { Footer } from "./components/Footer.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <ContextProvider>
         <div className="flex min-h-screen flex-col justify-between">
           <NavBar />
@@ -19,6 +19,6 @@ createRoot(document.getElementById("root")!).render(
           <Footer />
         </div>
       </ContextProvider>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 );
