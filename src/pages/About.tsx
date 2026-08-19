@@ -18,7 +18,7 @@ export const About = () => {
           src={leanOnTree}
           className="h-[calc(60vh)] w-full object-cover md:h-[calc(100vh)] md:w-1/2"
         />
-        <div className="flex w-full flex-col gap-4 px-4 py-6 text-center md:w-1/2 md:gap-10 md:px-12 md:pt-48 md:text-right">
+        <div className="flex w-full flex-col gap-4 px-4 py-6 text-center md:w-1/2 md:gap-6 md:px-12 md:pt-46 md:text-right">
           <PageHeader>Biography</PageHeader>
           <div className="flex flex-col gap-4">
             <BioParagraph>
