@@ -25,19 +25,14 @@ export const Footer = () => {
           })}
         </div>
         <div className="flex flex-col gap-2">
-          <LogoLink withSocial />
+          <LogoLink />
         </div>
       </div>
-      {/* <p className="text-gray-500 text-xs font-secondary w-full text-left">
-        Website design by Lauren DeLucia
+      <p className="font-secondary text-light-pink mt-4 mb-1 w-75 pl-4 text-left text-[10px] md:w-full md:text-center md:text-xs">
+        © LAUREN DELUCIA. ALL RIGHTS RESERVED.
+        <br />
+        Website Design by Lauren DeLucia, Lirica Solutions LLC.
       </p>
-      <a
-        href="https://www.flaticon.com/free-icons/google-play-music"
-        title="google play music icons"
-        className="text-gray-500 text-xs font-secondary w-full text-left"
-      >
-        Google play music icons created by Pixel perfect - Flaticon
-      </a> */}
     </div>
   );
 };
