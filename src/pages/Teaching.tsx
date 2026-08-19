@@ -12,7 +12,7 @@ export const Teaching = () => {
         <div className="flex flex-col items-start justify-start gap-4 px-4 py-6 lg:w-1/2 lg:gap-4 lg:px-8 lg:pt-40 lg:pb-12">
           <div className="flex w-full flex-col items-center justify-center lg:gap-4">
             <PageHeader>Teaching</PageHeader>
-            <p className="font-secondary text-lg lg:text-xl uppercase">
+            <p className="font-secondary text-lg uppercase lg:text-xl">
               Come sing with me!
             </p>
           </div>
@@ -33,6 +33,7 @@ export const Teaching = () => {
               <li>Breathing for singing</li>
               <li>Pitch accuracy</li>
               <li>Diction</li>
+              <li>Reading & Learning Music</li>
               <li>Acting</li>
               <li>Performance anxiety</li>
               <li>Having fun making music!</li>
