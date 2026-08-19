@@ -4,14 +4,14 @@ import smileByFountain from "../assets/DSCF0321.jpg";
 
 export const Contact = () => {
   return (
-    <div className="flex flex-col items-center w-full ">
+    <div className="flex w-full flex-col items-center">
       <img
         src={smileByFountain}
         alt=""
-        className="h-[calc(70vh)] lg:h-[calc(75vh)] max-w-[1800px] w-full object-cover object-bottom lg:inline-block"
+        className="h-[calc(70vh)] w-full max-w-[1800px] object-cover object-bottom lg:inline-block lg:h-[calc(75vh)]"
       />
-      <div className="flex flex-col w-full self-center max-w-187.5 gap-4 px-6 pb-32 pt-16 md:px-12 md:pb-48 md:pt-24">
-        <PageHeader>Contact Me</PageHeader>
+      <div className="flex w-full max-w-187.5 flex-col gap-4 self-center px-6 pt-16 pb-32 md:px-12 md:pt-24 md:pb-48">
+        <PageHeader>Get In Touch</PageHeader>
         <ContactForm />
       </div>
     </div>
