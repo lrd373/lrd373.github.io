@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "@fontsource/nunito-sans";
+@import "@fontsource/bodoni-moda";
+@import "@fontsource/parisienne";
+
+@keyframes fade-to-gray {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: #645f5f91;
+  }
+}
+
+@keyframes slide-in-from-right {
+  from {
+    left: 100vw;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slide-out-to-right {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100vw;
+  }
+}
+
+:root {
+  --light-pink: #f8e7e7;
+  --light-pink-75: #f8e7e7a6;
+  --deep-fuschia: #ab325c;
+  --deep-fuschia-50: #ab325c80;
+  --deep-mauve: #462c2c;
+  --deep-mauve-50: #462c2cb2;
+  --background: var(--light-pink);
+  /* --background: white; */
+  --foreground: var(--color-gray-950);
+
+  --font-bodoni-moda: "Bodoni Moda", serif;
+  --font-nunito-sans: "Nunito Sans", sans-serif;
+  --font-parisienne: "Parisienne", "cursive";
+}
+
+@keyframes fade-to-fuschia {
+  from {
+    color: unset;
+    border-color: unset;
+  }
+
+  to {
+    color: var(--deep-fuschia);
+    border-color: var(--deep-fuscia);
+  }
+}
+
+@keyframes fade-to-light-pink {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: var(--light-pink-75);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--deep-mauve);
+  --color-light-pink: var(--light-pink);
+  --color-deep-fuschia: var(--deep-fuschia);
+  --color-deep-mauve: var(--deep-mauve);
+  --color-deep-mauve-50: var(--deep-mauve-50);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-primary: var(--font-bodoni-moda);
+  --font-secondary: var(--font-nunito-sans);
+  --font-logo: var(--font-parisienne);
+  --animate-fade-to-gray: fade-to-gray 0.15s linear forwards;
+  --animate-fade-to-fuschia: fade-to-fuschia 0.15s linear forwards;
+  --animate-fade-to-light-pink: fade-to-light-pink 0.15s linear forwards;
+  --animate-slide-in-from-right: slide-in-from-right 0.25s linear forwards;
+  --animate-slide-out-to-right: slide-out-to-right 0.25s linear forwards;
+}
+
+body {
+  background: var(--background);
+  color: var(--deep-mauve);
+  font-family: Arial, Helvetica, sans-serif;
+}
