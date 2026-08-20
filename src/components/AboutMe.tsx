@@ -16,10 +16,10 @@ export const AboutMe = () => {
         <em>Requiem</em>, Vivaldi&apos;s <em>Gloria</em>, Haydn's Lord Nelson
         Mass, and Saint-Saëns's Christmas Oratorio, and with the BSCU in J.S.
         Bach&apos;s <em>Magnificat</em>. She was a soprano choir member in
-        Handel&apos;s Messiah with Camerata New York and in the U.S. premiere of
-        Carl Davis&apos;s <em>Last Train to Tomorrow</em> at Alice Tully Hall.
-        In 2020, Lauren earned her Master of Music in Voice from the Mannes
-        School of Music in New York City.
+        Handel&apos;s <em>Messiah</em> with Camerata New York and in the U.S.
+        premiere of Carl Davis&apos;s <em>Last Train to Tomorrow</em> at Alice
+        Tully Hall. In 2020, Lauren earned her Master of Music in Voice from the
+        Mannes School of Music in New York City.
       </p>
     </div>
   );
