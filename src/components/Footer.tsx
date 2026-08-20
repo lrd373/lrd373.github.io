@@ -17,7 +17,7 @@ export const Footer = () => {
               <NavLink
                 key={linkObj.href}
                 to={linkObj.href}
-                className={`text-light-pink hover:animate-fade-to-fuschia active:animate-fade-to-fuschia lg:text-md font-secondary py-2 text-xs uppercase ${isCurrentPage && !isContact ? "underline underline-offset-8" : ""} ${isContact ? "mt-2 rounded-md border px-4" : ""}`}
+                className={`text-light-pink hover:animate-fade-to-fuschia active:animate-fade-to-fuschia font-secondary py-2 text-xs uppercase lg:text-base ${isCurrentPage && !isContact ? "underline underline-offset-8" : ""} ${isContact ? "mt-2 rounded-md border px-4" : ""}`}
               >
                 {linkObj.buttonText}
               </NavLink>

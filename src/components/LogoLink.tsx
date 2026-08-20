@@ -8,7 +8,9 @@ export const LogoLink = ({ withSocial }: { withSocial?: boolean }) => {
         Lauren DeLucia
       </h1>
       <div className="flex flex-row gap-2">
-        <h3 className="text-md font-secondary uppercase md:text-xl">soprano</h3>
+        <h3 className="font-secondary text-base uppercase md:text-xl">
+          soprano
+        </h3>
         {withSocial ? (
           <>
             |

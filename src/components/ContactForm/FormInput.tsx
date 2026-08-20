@@ -5,7 +5,7 @@ interface FormInputProps extends React.ComponentPropsWithoutRef<"input"> {
 export const FormInput = ({ name, error, ...props }: FormInputProps) => {
   return (
     <div className="relative flex flex-col">
-      <label className="uppercase text-sm md:text-md" htmlFor={name}>
+      <label className="text-sm uppercase md:text-base" htmlFor={name}>
         {name}
       </label>
       <input

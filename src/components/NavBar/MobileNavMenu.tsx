@@ -44,7 +44,7 @@ const HamburgerButton = ({ openModal }: { openModal: () => void }) => {
 
 const MobileNavModal = ({
   closeModal,
-  modalAnimation,
+  modalAnimation
 }: {
   closeModal: () => void;
   modalAnimation: string;
@@ -67,7 +67,7 @@ const MobileNavModal = ({
               closeModal();
               navigate(linkObj.href);
             }}
-            className={`font-secondary text-md text-light-pink border-light-pink w-fit py-2 uppercase ${isCurrentPage && !isContact ? "underline underline-offset-8" : ""} ${isContact ? "mt-2 rounded-md border px-4" : ""}`}
+            className={`font-secondary text-light-pink border-light-pink w-fit py-2 text-base uppercase ${isCurrentPage && !isContact ? "underline underline-offset-8" : ""} ${isContact ? "mt-2 rounded-md border px-4" : ""}`}
           >
             {linkObj.buttonText}
           </button>

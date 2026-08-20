@@ -18,10 +18,10 @@ export const Teaching = () => {
           </div>
           <div>
             <h3 className="font-primary text-2xl lg:text-3xl">Rates</h3>
-            <p className="font-secondary text-md lg:text-lg">
+            <p className="font-secondary text-base lg:text-lg">
               *Free 30-minute consultation lesson for new students
             </p>
-            <ul className="font-secondary text-md lg:text-lg">
+            <ul className="font-secondary text-base lg:text-lg">
               <li>30-minute lesson - $40 </li>
               <li>45-minute lesson - $50 </li>
               <li>60-minute lesson - $60 </li>
@@ -31,7 +31,7 @@ export const Teaching = () => {
           // className="max-w-200"
           >
             <h3 className="font-primary text-2xl lg:text-3xl">My Philosophy</h3>
-            <p className="font-secondary text-md text-justify lg:text-lg">
+            <p className="font-secondary text-justify text-base lg:text-lg">
               <span className="underline">Everyone</span> can sing, I truly
               believe that. Singing is an instrinsic human act. It communicates
               the waves, rhythm, sway, and pulse of emotion within us in ways
@@ -51,7 +51,7 @@ export const Teaching = () => {
             <h3 className="font-primary text-2xl lg:text-3xl">
               What We Cover in Lessons
             </h3>
-            <ul className="font-secondary text-md lg:text-lg">
+            <ul className="font-secondary text-base lg:text-lg">
               <li>Breathing for singing</li>
               <li>Pitch accuracy</li>
               <li>Diction</li>

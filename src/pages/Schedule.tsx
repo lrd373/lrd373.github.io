@@ -9,7 +9,7 @@ const PerformanceListing = ({
   location,
   date,
   role,
-  link,
+  link
 }: {
   title: string;
   location: string;
@@ -18,10 +18,10 @@ const PerformanceListing = ({
   link?: string;
 }) => (
   <div className="align-center font-secondary border-deep-mauve flex w-full max-w-175 flex-col gap-2 border p-4">
-    <p className="text-md md:text-lg">{date}</p>
+    <p className="text-base md:text-lg">{date}</p>
     {role ? <h4 className="font-primary text-xl md:text-2xl">{role}</h4> : null}
     <h4 className="text-2xl">{title}</h4>
-    <p className="text-md md:text-lg">{location}</p>
+    <p className="text-base md:text-lg">{location}</p>
     {link ? (
       <Link
         to={link}

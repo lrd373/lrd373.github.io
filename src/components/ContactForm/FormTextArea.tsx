@@ -4,7 +4,7 @@ export const FormTextArea = ({
 }: React.ComponentPropsWithoutRef<"textarea">) => {
   return (
     <div>
-      <label className="uppercase text-sm md:text-md" htmlFor={name}>
+      <label className="text-sm uppercase md:text-base" htmlFor={name}>
         {name}
       </label>
       <textarea

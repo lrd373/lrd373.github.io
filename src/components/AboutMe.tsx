@@ -1,7 +1,7 @@
 export const AboutMe = () => {
   return (
     <div className="flex overflow-hidden px-6 py-10 md:max-w-175 md:py-24">
-      <p className="font-secondary text-sm leading-8 md:text-xl">
+      <p className="font-secondary text-justify text-sm leading-6 md:text-xl md:leading-8">
         Soprano and New Jersey native Lauren DeLucia utilizes the unique “depth
         of her low tones and fierce declamatory power” (South Florida Classical
         Review) in a wide range of repertoire from early to contemporary music
