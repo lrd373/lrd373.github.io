@@ -56,8 +56,20 @@ export const Schedule = () => {
             role="Soloist"
             title="Fall Fundraising Concert"
             location="Bishop Jane United Methodist Church, Basking Ridge, New Jersey"
-            date="Date TBD"
+            date="October 25, 2026"
             link="https://www.bjumc.org/all-events"
+          />
+          <PerformanceListing
+            role="Choral Scholar"
+            title="December Holiday Concert, Voices Chorale NJ"
+            location="Trinity Church, Princeton, New Jersey"
+            date="December 12, 2026 at 4:00 PM"
+          />
+          <PerformanceListing
+            role="Choral Scholar"
+            title="Spring Concert, Voices Chorale NJ"
+            location="Trinity Church, Princeton, New Jersey"
+            date="May 8, 2026 at 4:00 PM"
           />
         </div>
         <h2 className="font-primary text-2xl">Past Performances</h2>
