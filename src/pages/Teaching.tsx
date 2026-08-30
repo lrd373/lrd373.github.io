@@ -57,7 +57,6 @@ export const Teaching = () => {
               <li>Diction</li>
               <li>Reading & Learning Music</li>
               <li>Acting</li>
-              <li>Performance anxiety</li>
               <li>Having fun making music!</li>
             </ul>
           </div>
