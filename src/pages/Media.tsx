@@ -8,6 +8,24 @@ export const Media = () => {
     <div className="flex flex-col items-center justify-start gap-8 px-2 pt-32 pb-8 md:gap-12 md:py-50">
       <PageHeader>Media</PageHeader>
       <div className="flex w-full flex-row flex-wrap justify-center gap-2 md:gap-8">
+        {/* Oh! Quante volte */}
+        <iframe
+          className={iframeStyle}
+          src="https://www.youtube.com/embed/Cd-ecMf_0eA?si=S24tGJY1PEEWuT4L"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+        {/* Il faut partir */}
+        <iframe
+          className={iframeStyle}
+          src="https://www.youtube.com/embed/a2cJx0eC_-0?si=pDpdDafdgLV4quPx"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
         {/* You Are All I See */}
         <iframe
           className={iframeStyle}
@@ -21,15 +39,6 @@ export const Media = () => {
         <iframe
           className={iframeStyle}
           src="https://www.youtube.com/embed/N7uy2a-ZnHE?si=d7n_isub3kaX9Shf"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-        {/* Padre Germani */}
-        <iframe
-          className={iframeStyle}
-          src="https://www.youtube.com/embed/suLZBlgNpj0?si=LlEPUylOfL11jSRs"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
