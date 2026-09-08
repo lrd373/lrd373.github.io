@@ -29,7 +29,7 @@ export const Media = () => {
         {/* You Are All I See */}
         <iframe
           className={iframeStyle}
-          src="https://www.youtube.com/embed/hq9oQw9osR0?si=C4nm81vpZ9mUKAsl&amp;start=93"
+          src="https://www.youtube.com/embed/kRTY_RLJooo?si=z4EEbCCqPeFeQMtW"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
