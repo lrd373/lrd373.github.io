@@ -31,7 +31,7 @@ export const Footer = () => {
       <p className="font-secondary text-light-pink mt-4 mb-1 w-75 pl-4 text-left text-[10px] md:w-full md:text-center md:text-xs">
         © 2026 LAUREN DELUCIA. ALL RIGHTS RESERVED.
         <br />
-        Website Design by Lauren DeLucia, Lirica Solutions LLC.
+        Website Design by Lauren DeLucia
       </p>
     </div>
   );
