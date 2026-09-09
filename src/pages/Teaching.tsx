@@ -33,7 +33,7 @@ export const Teaching = () => {
             <h3 className="font-primary text-2xl lg:text-3xl">My Philosophy</h3>
             <p className="font-secondary text-justify text-base lg:text-lg">
               <span className="underline">Everyone</span> can sing, I truly
-              believe that. Singing is an instrinsic human act. It communicates
+              believe that. Singing is an intrinsic human act. It communicates
               the waves, rhythm, sway, and pulse of emotion within us in ways
               that words alone often fail to do. To share one's voice can be
               scary, but it is also a joy and a right. None of us sound exactly
