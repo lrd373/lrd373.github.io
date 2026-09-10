@@ -54,7 +54,7 @@ export const Schedule = () => {
         <div className="flex w-full flex-col flex-wrap items-center justify-center gap-4">
           <PerformanceListing
             role="Soloist"
-            title="Fall Fundraising Concert"
+            title="Benefit Concert"
             location="Bishop Jane United Methodist Church, Basking Ridge, New Jersey"
             date="October 25, 2026"
             link="https://www.bjumc.org/all-events"
