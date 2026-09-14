@@ -6,7 +6,6 @@ import { FormTextArea } from "./FormTextArea";
 import {
   isValidEmail,
   sanitizeFormData,
-  // validateFormData,
   type ResponseMessage
 } from "./validateFormData";
 const emailjsData: {
@@ -72,7 +71,6 @@ export const ContactForm = () => {
     }
 
     if (!isValidEmail(emailString)) {
-      console.log("invalid email: -->", emailString, "<--", "a", "space");
       setEmailError("Please enter a valid email.");
       setIsLoading(false);
       return;
