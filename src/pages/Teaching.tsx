@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import smileByLake from "../assets/Smile wide shot lake.jpg";
 import { PageHeader } from "../components/PageHeader";
 
@@ -27,9 +28,7 @@ export const Teaching = () => {
               <li>60-minute lesson - $60 </li>
             </ul>
           </div>
-          <div
-          // className="max-w-200"
-          >
+          <div>
             <h3 className="font-primary text-2xl lg:text-3xl">My Philosophy</h3>
             <p className="font-secondary text-justify text-base lg:text-lg">
               <span className="underline">Everyone</span> can sing, I truly
@@ -52,14 +51,20 @@ export const Teaching = () => {
               What We Cover in Lessons
             </h3>
             <ul className="font-secondary text-base lg:text-lg">
-              <li>Breathing for singing</li>
-              <li>Pitch accuracy</li>
+              <li>Ages 7+, any experience level</li>
+              <li>Healthy vocal technique</li>
+              <li>Reading & learning music</li>
+              <li>Acting & stage presence</li>
               <li>Diction</li>
-              <li>Reading & Learning Music</li>
-              <li>Acting</li>
               <li>Having fun making music!</li>
             </ul>
           </div>
+          <NavLink
+            to="/contact"
+            className="mt-2 w-fit rounded-md border px-4 py-2 uppercase"
+          >
+            Get in touch
+          </NavLink>
         </div>
       </div>
     </div>
